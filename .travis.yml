@@ -1,9 +1,5 @@
-dist: xenial
 language: java
-sudo: false
-jdk: openjdk11
+jdk: 
+  - openjdk11
 before_install: 
   - chmod +x mvnw
-cache: 
-  directories:
-    - $HOME/.m2
